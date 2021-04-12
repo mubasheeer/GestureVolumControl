@@ -1,0 +1,5 @@
+opencv2: for image tracking
+pycaw: for audio management(windows)
+numpy: for some mathematical operations
+python 3.0 or above.
+Webcam(lol )
