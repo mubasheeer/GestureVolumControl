@@ -1,4 +1,4 @@
-# GestureVolumControl
+# GestureVolumeControl
 
 This application uses hand gestures to control the volume of our system.
 Using Mediapipe's handtracker(pre-trained model) which was trained on ~30K real-world images with 21 3D coordinates, we take Z-value from image depth map, if it exists per corresponding coordinate. To better cover the possible hand poses and provide additional supervision on the nature of hand geometry, we also render a high-quality synthetic hand model over various backgrounds and map it to the corresponding 3D coordinates.
